@@ -17,7 +17,7 @@ import static org.springframework.web.reactive.function.server.RouterFunctions.r
 public class UserRouterConfig {
 
     public static final String USER_PATH = "/api/user";
-    public static final String USER_PATH_ID = USER_PATH +  "/{id}";
+    public static final String USER_PATH_ID = USER_PATH +  "/{userId}";
 
     private final UserHandler userHandler;
 
