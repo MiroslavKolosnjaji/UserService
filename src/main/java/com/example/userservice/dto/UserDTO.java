@@ -29,8 +29,8 @@ public class UserDTO {
     @NotBlank
     private String email;
 
-    private Set<Long> roles;
-    private LocalDateTime created;
-    private LocalDateTime updated;
-    private Boolean enabled;
+    private Long roleId;
+    private LocalDateTime createdDate;
+    private LocalDateTime lastModifiedDate;
+    private Integer enabled;
 }

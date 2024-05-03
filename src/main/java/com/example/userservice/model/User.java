@@ -28,15 +28,13 @@ public class User {
     private String username;
     private String password;
     private String email;
-
-    @Column("role_id")
-    private Set<Long> roles;
+    private Long roleId;
 
     @CreatedDate
-    private LocalDateTime created;
+    private LocalDateTime createdDate;
 
     @LastModifiedDate
-    private LocalDateTime updated;
+    private LocalDateTime lastModifiedDate;
 
     private Boolean enabled;
 
